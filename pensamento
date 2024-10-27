@@ -1,0 +1,49 @@
+// -status
+// > executa
+- atomo a = 1;
+> a++;
+- atomo a = 2;
+> a divide em 2 e cria 1;
+- atomo a = 1 b = 1;
+> a++ b++;
+- atomo a = 2 b = 2;
+> a divide em 2 e cria 1;
+- atomo a = 1 b = 2 c = 1;
+// após 2 divisão a celula morre
+> a++ b++ c++;
+- atomo a = 0 b = 4 c = 2;
+> b divide em 2 e cria 1;
+- atomo b = 2 c = 2 d = 2;
+> b divide em 2 e cria 1;
+- atomo b = 1 c = 2 d = 2 e = 1;
+> b++ c++ d++ e++;
+- atomo b = 0 c = 4 d = 3 e = 2;
+> c divide em 2 e cria 1;
+- atomo c = 2 d = 3 e = 2 f = 2;
+> c divide em 2 e cria 1;
+- atomo c = 1 d = 3 e = 2 f = 2 g = 1;
+> c++ d++ e++ f++ g++;
+- atomo c = 0 d = 5 e = 3 f = 3 g = 2;
+> d++ e++ f++ g++;
+- atomo d = 6 e = 4 f = 4 g = 3;
+> d divide em 2 e cria 1
+ e divide em 2 e cria 1
+ f divide em 2 e cria 1;
+- atomo d = 3 e = 2 f = 2 g = 3 h = 3 i = 2 j = 2;
+> d++ e++ f++ g++ h++ i++ j++;
+- atomo d = 4 e = 3 f = 3 g = 4 h = 4 i = 3 j = 3;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
